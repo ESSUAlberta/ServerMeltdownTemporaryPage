@@ -18,3 +18,12 @@ body{
   margin: 0px;
   padding: 0px;
 }
+
+a:hover {
+  transition: all 200ms 0s;
+  opacity: 0.7;
+}
+
+a {
+  transition: all 200ms 0s;
+}

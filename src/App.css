@@ -30,3 +30,8 @@ a {
   text-decoration: none;
   font-weight: 600;
 }
+
+h1 {
+  font-family: "Open Sans";
+  font-weight: 300;
+}

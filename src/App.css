@@ -26,4 +26,7 @@ a:hover {
 
 a {
   transition: all 200ms 0s;
+  color: black; 
+  text-decoration: none;
+  font-weight: 600;
 }

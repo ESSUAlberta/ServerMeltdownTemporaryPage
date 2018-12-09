@@ -12,10 +12,13 @@ class Home extends React.Component {
             The previous UAlberta ESS Website is currently down. This is a temporary website. This will be updated regularly over the next few weeks while the new website is developed. For information about our latest events, please refer to the ESS Facebook page.
           </InformativeTextBox>
 
-          <InformativeTextBox>
-            <h1><a className="headerHyperlink" href="/career-fair">{"Career Fair"}</a></h1>
-            {"Nulla ad commodo exercitation adipisicing pariatur elit. Esse sint aliqua ut occaecat. Voluptate irure anim esse velit adipisicing incididunt ullamco adipisicing cupidatat pariatur."} <a href="mailto:director.it@ess.ualberta.ca">director.it@ess.ualberta.ca</a>{"."}
-          </InformativeTextBox>
+          {false ?
+            <InformativeTextBox>
+              <h1><a className="headerHyperlink" href="/career-fair">{"Career Fair"}</a></h1>
+              {"Nulla ad commodo exercitation adipisicing pariatur elit. Esse sint aliqua ut occaecat. Voluptate irure anim esse velit adipisicing incididunt ullamco adipisicing cupidatat pariatur."} <a href="mailto:director.it@ess.ualberta.ca">director.it@ess.ualberta.ca</a>{"."}
+            </InformativeTextBox>
+            : null
+          }
 
           <InformativeTextBox>
             <h1 style={{ fontWeight: "300" }}>{"Contact Information"}</h1>

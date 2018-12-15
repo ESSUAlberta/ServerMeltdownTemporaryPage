@@ -11,7 +11,7 @@ const AppRouter = () => (
     <div>
       <Switch>
         <Route path="/" exact component={HomeScreen} />
-        {false ? <Route path="/career-fair" exact component={CareerFairScreen} /> : null}
+        {true ? <Route path="/career-fair" exact component={CareerFairScreen} /> : null}
         <Route component={E404} />
       </Switch>
     </div>

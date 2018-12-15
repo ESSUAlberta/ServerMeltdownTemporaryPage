@@ -12,10 +12,15 @@ class Home extends React.Component {
             The previous UAlberta ESS Website is currently down. This is a temporary website. This will be updated regularly over the next few weeks while the new website is developed. For information about our latest events, please refer to the ESS Facebook page.
           </InformativeTextBox>
 
-          {false ?
+          {true ? //write false to disable this section
             <InformativeTextBox>
               <h1><a className="headerHyperlink" href="/career-fair">{"Career Fair"}</a></h1>
-              {"Nulla ad commodo exercitation adipisicing pariatur elit. Esse sint aliqua ut occaecat. Voluptate irure anim esse velit adipisicing incididunt ullamco adipisicing cupidatat pariatur."} <a href="mailto:director.it@ess.ualberta.ca">director.it@ess.ualberta.ca</a>{"."}
+              The 19th Annual ESS Career Fair will run on January 9 and 10, 2019 from 10 AM to 3 PM, in the Engineering Teaching and Learning Complex Solarium on the University of Alberta North Campus.<br /> <br />
+
+              With over 4500 undergraduate students and 1500 graduate students from 9 engineering disciplines, the ESS Career Fair provides a great opportunity for engineering companies to connect face-to-face with some of the brightest engineering minds in Canada.<br /><br />
+
+              Questions? Contact us at{" "}
+              <a href="mailto:director.careerfair@ess.ualberta.ca">director.careerfair@ess.ualberta.ca</a>{"."}
             </InformativeTextBox>
             : null
           }

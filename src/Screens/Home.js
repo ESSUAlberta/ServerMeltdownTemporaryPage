@@ -20,7 +20,8 @@ class Home extends React.Component {
               With over 4500 undergraduate students and 1500 graduate students from 9 engineering disciplines, the ESS Career Fair provides a great opportunity for engineering companies to connect face-to-face with some of the brightest engineering minds in Canada.<br /><br />
 
               Questions? Contact us at{" "}
-              <a href="mailto:director.careerfair@ess.ualberta.ca">director.careerfair@ess.ualberta.ca</a>{"."}
+              <a href="mailto:director.careerfair@ess.ualberta.ca">director.careerfair@ess.ualberta.ca</a><br /><br />
+              <h2><a href="/career-fair">Learn More</a></h2>
             </InformativeTextBox>
             : null
           }
